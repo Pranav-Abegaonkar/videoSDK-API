@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken');
 
-const API_KEY = "91e29813-9605-4300-b82e-9ed26083422c";
-const SECRET = "3a3e38572821db15141710312bed1025671533d41a66a739b9c11666ed322486";
+const API_KEY = "API key";
+const SECRET = "Secret";
 
 const options = { 
  expiresIn: '7d', 
