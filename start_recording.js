@@ -2,8 +2,8 @@ import fetch from 'node-fetch';
 const options = {
 	method: "POST",
 	headers: {
-		"Authorization": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiJlOTQ0MDMwYy1kODhlLTQ3NTgtOTg0ZC04MjNhMmJiZTZlYzIiLCJwZXJtaXNzaW9ucyI6WyJhbGxvd19qb2luIl0sImlhdCI6MTc0MjMwMTEyMCwiZXhwIjoxNzQyOTA1OTIwfQ.KOyhN1xuKp8BYjt6rp_qnoOZ8lQ-x1QDoRFgrZ60P3A",
-		"Content-Type": "application/json",
+		"Authorization": "videosdk token"
+ 		"Content-Type": "application/json",
 	},
 	body: JSON.stringify({
 		"roomId" : "bwcr-ka48-54d8",
